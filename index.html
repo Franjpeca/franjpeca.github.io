@@ -1,35 +1,25 @@
 <!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
+  Portfolio de Francisco Javier Pérez Castillo
+  Basado en la plantilla de Nisar Hassan Naqvi
+  Github Repo original: https://github.com/nisarhassan12/portfolio-template/
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Francisco Javier Pérez Castillo | Científico de Datos e Ingeniero de Datos Junior
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description"
+    content="Ingeniero Informático especializado en ingeniería de datos, aprendizaje automático e inteligencia artificial. Córdoba, España.">
+  <meta name="keywords"
+    content="Francisco Pérez Castillo, Ingeniero de Datos, Data Engineer, Python, SQL, ETL, Kafka, Docker, Machine Learning, Córdoba, España" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -41,13 +31,13 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Experiencia</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Tecnologías</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#about" class="nav__link">Sobre Mí</a>
           </li>
           <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+            <a href="#contact" class="nav__link">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -55,173 +45,173 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Francisco Javier Pérez Castillo</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Científico de Datos e Ingeniero de Datos Junior</p>
+        <a href="#contact" class="btn btn--pink">Contáctame</a>
       </div>
     </div>
   </header>
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+    <!-- ***** Experiencia ***** -->
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
+        <h2>Experiencia</h2>
+        <div class="timeline">
 
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
+          <!-- Entrada 1: atmira -->
+          <div class="timeline__item">
+            <div class="timeline__left">
+              <span class="timeline__year">Mar 2025</span>
+              <span class="timeline__year timeline__year--end">Jun 2025</span>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            <div class="timeline__connector">
+              <div class="timeline__dot"></div>
+              <div class="timeline__line"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Prácticas &middot; Ingeniero de Datos</h3>
+              <p class="timeline__company">atmira Espacio de consultoría &mdash; Proyecto Darwin (BME) &middot; Córdoba
+              </p>
+              <ul class="timeline__list">
+                <li>Monitorización y análisis de logs de microservicios para detección de cuellos de botella y mejora
+                  del rendimiento.</li>
+                <li>Optimización de procesos ETL reduciendo tiempos de carga mediante automatización y paralelización de
+                  tareas.</li>
+                <li>Desarrollo de conectores y consultas para integración de datos distribuidos con Kafka y bases de
+                  datos relacionales.</li>
+                <li>Elaboración de informes técnicos y dashboards para soporte a decisiones del equipo de gestión.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Kafka</span>
+                <span class="timeline__tag">MongoDB</span>
+                <span class="timeline__tag">PostgreSQL</span>
+                <span class="timeline__tag">Docker</span>
+                <span class="timeline__tag">Linux</span>
+                <span class="timeline__tag">Git</span>
+              </div>
             </div>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
+          <!-- Entrada 2: Justecor -->
+          <div class="timeline__item">
+            <div class="timeline__left">
+              <span class="timeline__year">2023</span>
+              <span class="timeline__year timeline__year--end">2024</span>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            <div class="timeline__connector">
+              <div class="timeline__dot"></div>
+            </div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Colaboración Técnica &middot; Automatización y Soporte IT</h3>
+              <p class="timeline__company">Justecor Abogados &mdash; Despacho de abogacía y asesoría &middot; Córdoba
+              </p>
+              <ul class="timeline__list">
+                <li>Automatización de tareas internas y asistencia técnica al personal.</li>
+                <li>Creación de scripts y herramientas para mejorar flujos de trabajo.</li>
+                <li>Mantenimiento de equipos y configuración básica de sistemas.</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="timeline__tag">Python</span>
+                <span class="timeline__tag">Excel</span>
+                <span class="timeline__tag">PowerShell</span>
+                <span class="timeline__tag">Windows</span>
+              </div>
             </div>
           </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
+    <!-- ***** Tecnologías ***** -->
+
+
+
+
+
 
     <section class="client" id="clients">
       <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        <h2>Habilidades y Tecnologías</h2>
+        <div class="skills__grid">
+          <div class="skills__category">
+            <h3>Lenguajes</h3>
+            <p>Python · SQL · C · C++</p>
+          </div>
+          <div class="skills__category">
+            <h3>Procesamiento y Datos</h3>
+            <p>ETL · PostgreSQL · MongoDB · NoSQL · Apache Kafka · Apache Spark</p>
+          </div>
+          <div class="skills__category">
+            <h3>Infraestructura y Automatización</h3>
+            <p>Airflow · Docker · Linux · Bash · Git</p>
+          </div>
+          <div class="skills__category">
+            <h3>Librerías y Frameworks</h3>
+            <p>pandas · numpy · scikit-learn · Kedro</p>
+          </div>
+          <div class="skills__category">
+            <h3>Herramientas</h3>
+            <p>Jupyter · VSCode · Excel</p>
+          </div>
+          <div class="skills__category">
+            <h3>Idiomas</h3>
+            <p>Español (Nativo) · Inglés (B1 — Trinity College London Certificate)</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** About ***** -->
+    <!-- ***** Sobre Mí ***** -->
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <h2>Sobre Mí</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Ingeniero Informático especializado en ingeniería de datos, aprendizaje automático,
+              inteligencia artificial y automatización. Me caracterizo por un enfoque analítico y
+              orientado a resultados, con un fuerte pensamiento crítico.
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <p>
+              Disfruto del trabajo en equipo y valoro la colaboración como una herramienta clave.
+              Constantemente busco entender a fondo los desafíos técnicos y de negocio para
+              proporcionar soluciones robustas, escalables y alineadas con los objetivos de la
+              organización.
+            </p>
+            <a href="#" class="btn">Mi CV</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <!-- Reemplazar esta imagen con tu foto personal -->
+            <img class="about__photo" src="./images/Foto_retocada.jpg" alt="Francisco Javier Pérez Castillo" />
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
+  <!-- ***** Contacto ***** -->
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>Contacto</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          ¿Buscas un científico de datos/ingeniero de datos junior motivado y con ganas de aportar valor a tu equipo?
+          ¿Tienes alguna pregunta o propuesta? No dudes en contactarme.
+          La forma más rápida de llegar a mí es por correo electrónico. 😊
         </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <p>
+          📍 Córdoba, Andalucía, España<br>
+          📞 +34 684 301 954
+        </p>
+        <a href="mailto:franjpeca@gmail.com" class="btn">franjpeca@gmail.com</a>
       </div>
     </div>
   </section>
@@ -230,45 +220,29 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          <a href="https://github.com/franjpeca" title="Perfil de GitHub">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          <a href="https://linkedin.com/in/francisco-perez-castillo" title="Perfil de LinkedIn">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
           </a>
         </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
+
+
       </ul>
 
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; 2026 Francisco Javier Pérez Castillo · Template by <a href="https://nisar.dev" class="link">Nisar</a>.
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
     </div>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  <a href="#top" class="back-to-top" title="Volver arriba">
+    <img src="./images/arrow-up.svg" alt="Volver arriba" class="back-to-top__image" />
   </a>
   <script src="./index.js"></script>
 </body>
